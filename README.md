@@ -2,7 +2,12 @@
 
 A rudimentary interactive wireframe renderer written in C using GLUT.
 
-![Wireframe renderer demo](https://emuman.net/static/images/wireframe-renderer-demo.gif)
+![Wireframe renderer demo](https://user-images.githubusercontent.com/23511921/225552773-012d3c08-7dc4-4066-bb01-a5c33e6482ba.png)
+
+(The above image was originally a GIF before GitHub converted it into a
+PNG. I will work to fix this in the future, but for now, if you would like
+to see the animated version with a changing perspective, it can be found on
+<a href="https://emuman.net/programming" target="_blank">my website</a>.)
 
 ## About
 
