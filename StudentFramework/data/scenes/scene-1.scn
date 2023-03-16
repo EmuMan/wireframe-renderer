@@ -1,0 +1,44 @@
+# HOW TO USE
+# move mouse to look, wasd to move around
+
+# i wanted to go for something extra customizable, so i created a new file format
+# that my project can read and interpret.  you can mess around with the values and
+# reload the program if you'd like.
+
+# define camera, set position (p), rotation (r), and focal distance (d)
+c
+p 0 0 5
+r 0 0 -1
+u 0 1 0
+d 2
+
+# define object called monkey, set position, rotation, and scale to defaults
+m ./data/obj/monkey.obj monkey
+p 0 0 0
+r 0 1.570796 0
+s 1 1 1
+
+# define other objects
+m ./data/obj/mountain.obj mountain
+s 10 10 10
+r 0 0 0
+p 0 -2 0
+
+m ./data/obj/icosphere.obj sphere
+p 10 2 4
+r 1 2 0
+s 1 2 1
+
+m ./data/obj/monkey.obj monkey3
+p 0 5 0
+r 0 0 3.141592
+s 0.5 0.5 0.5
+
+m ./data/obj/uvsphere.obj sphere2
+p 0 3 0
+r 0 0 0
+s 1 1 1
+
+# define the background image, set skybox to 0
+b ./data/imgs/black.bmp 0
+

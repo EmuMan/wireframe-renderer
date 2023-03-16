@@ -1,0 +1,1 @@
+struct Color *LoadBitmapFile(char *filename, BITMAPINFOHEADER *bitmapInfoHeader);

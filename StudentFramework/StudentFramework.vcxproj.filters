@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkInterface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CatImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineRasterizer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pmath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pfmath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="images.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CatImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineRasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pfmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="images.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b7be0fbf-5ea4-4d57-a59d-64e3e1f966fc}</UniqueIdentifier>
+      <Extensions>c;cpp</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{92c0d97a-9fe8-483d-9b09-a860fea96892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c2da1467-3e79-4236-a8a8-05de0e2a93c9}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>
